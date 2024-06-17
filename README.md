@@ -14,9 +14,9 @@ This project is a simple, stylish website featuring a chocolate chip cookie reci
 
 ## Files
 
-- `index.html`: The main page displaying the chocolate chip cookie recipe.
+- `cookies.html`: The main page displaying the chocolate chip cookie recipe.
 - `submit.html`: The submission page with a form for users to submit their own recipes.
-- `styles.css`: The CSS file containing styles for both the main page and the submission page.
+- `cookie_styles.css`: The CSS file containing styles for both the main page and the submission page.
 
 ## Usage
 
