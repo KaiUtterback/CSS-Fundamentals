@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Recipe Title */
+#recipe-title {
+    font-family: 'Georgia', serif;
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+/* Section Titles */
+.section-title {
+    font-family: 'Verdana', sans-serif;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Ingredients List */
+.ingredients-list {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Steps List */
+.steps-list {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+/* Main Content Styling */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Recipe Link Styling */
+.recipe-link {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.recipe-link:hover {
+    color: #1abc9c;
+    text-decoration: underline;
+}
+
+/* Class and ID Selectors */
+#ingredients-section .section-title {
+    color: #2c3e50;
+}
+
+#steps-section .section-title {
+    color: #8e44ad;
+}
+
+/* Combinator Selector */
+#steps-section > ol > li {
+    margin-bottom: 10px;
+}
