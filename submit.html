@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Your Recipe</title>
+    <link rel="stylesheet" href="cookie_styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="form-title">Submit Your Recipe</h1>
+    </header>
+
+    <main>
+        <form action="/submit-recipe" method="post" class="recipe-form">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="recipe-title">Recipe Title:</label>
+            <input type="text" id="recipe-title" name="recipe-title" required>
+
+            <label for="ingredients">Ingredients:</label>
+            <textarea id="ingredients" name="ingredients" rows="5" required></textarea>
+
+            <label for="steps">Steps:</label>
+            <textarea id="steps" name="steps" rows="5" required></textarea>
+
+            <button type="submit" class="submit-button">Submit Recipe</button>
+        </form>
+    </main>
+
+    <footer>
+        <p><a href="cookies.html" class="back-link">Back to Recipe</a></p>
+    </footer>
+</body>
+</html>
