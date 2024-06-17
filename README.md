@@ -39,9 +39,9 @@ This project is a simple, stylish website featuring a chocolate chip cookie reci
 ```plaintext
 chocolate-chip-cookie-recipe/
 │
-├── index.html
+├── cookies.html
 ├── submit.html
-└── styles.css
+└── cookie_styles.css
 ```
 
 ## Screenshots
