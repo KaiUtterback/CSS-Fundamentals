@@ -43,19 +43,3 @@ chocolate-chip-cookie-recipe/
 ├── submit.html
 └── cookie_styles.css
 ```
-
-## Screenshots
-
-### Main Page
-![Main Page](path/to/screenshot-main-page.png)
-
-### Submission Page
-![Submission Page](path/to/screenshot-submission-page.png)
-
-## Contributing
-
-Feel free to fork this project and submit pull requests. Contributions are always welcome!
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
